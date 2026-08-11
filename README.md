@@ -27,3 +27,4 @@ cd curso-analisis-algoritmos
 
 - Nombre: Sebastián Jesús Pérez Araujo
 - Correo: sebastianperez1116036@correo.itm.edu.co
+- Semestre: 2026-2
