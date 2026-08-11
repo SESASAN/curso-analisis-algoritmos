@@ -22,3 +22,8 @@ Para clonar el repositorio y ubicarse en la carpeta del proyecto:
 git clone https://github.com/SESASAN/curso-analisis-algoritmos.git
 cd curso-analisis-algoritmos
 ```
+
+## Autor
+
+- Nombre: Sebastián Jesús Pérez Araujo
+- Correo: sebastianperez1116036@correo.itm.edu.co
