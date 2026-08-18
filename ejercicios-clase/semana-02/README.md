@@ -12,6 +12,10 @@ source venv/bin/activate
 El prefijo `(venv)` en la terminal confirma que el entorno está activo. La
 carpeta `venv/` está listada en `.gitignore` y no se sube al repositorio.
 
+> Si tu shell es `fish` en lugar de `bash`/`zsh`, activa con
+> `source venv/bin/activate.fish` (el script `activate` normal falla en
+> fish porque usa sintaxis de `sh`).
+
 ## Dependencias
 
 Con el entorno activado se instaló `matplotlib` y se generó el archivo de
