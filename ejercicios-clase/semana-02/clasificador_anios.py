@@ -36,12 +36,15 @@ def leer_anios() -> list[int]:
         Lista de años como enteros.
     """
     while True:
-        entrada = input("Ingrese años separados por comas (ej. 2000,2023,2024): ")
-        partes = [parte.strip() for parte in entrada.split(",") if parte.strip()]
+        mensaje = "Ingrese años separados por comas (ej. 2000,2023,2024): "
+        entrada = input(mensaje)
+        partes = [
+            parte.strip() for parte in entrada.split(",") if parte.strip()
+        ]
         try:
             return [int(parte) for parte in partes]
         except ValueError:
-            print("Entrada inválida. Ingrese solo números enteros separados por comas.")
+            print("Entrada inválida. Use solo enteros separados por comas.")
 
 
 def main() -> None:
