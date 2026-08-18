@@ -20,10 +20,7 @@ def es_bisiesto(anio: int) -> bool:
         return True
     elif anio % 100 == 0:
         return False
-    elif anio % 4 == 0:
-        return True
-    else:
-        return False
+    return anio % 4 == 0
 
 
 def leer_anios() -> list[int]:
