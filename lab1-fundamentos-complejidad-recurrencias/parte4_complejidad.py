@@ -7,6 +7,7 @@ Parte 3, y genera la grafica parte4_tiempo.png.
 
 import statistics
 import time
+from typing import Callable
 
 import matplotlib.pyplot as plt
 
@@ -22,7 +23,9 @@ ALGORITMOS = {
 }
 
 
-def medir(algoritmo, n: int) -> float:
+def medir(
+    algoritmo: Callable[[list[int]], tuple[list[int], int]], n: int
+) -> float:
     """Mide el tiempo mediano de un algoritmo de ordenamiento.
 
     Args:

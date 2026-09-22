@@ -7,6 +7,7 @@ genera las graficas parte3_comparaciones.png y parte3_tiempo.png.
 
 import statistics
 import time
+from typing import Callable
 
 import matplotlib.pyplot as plt
 
@@ -23,7 +24,7 @@ ESCENARIOS = {
 }
 
 
-def medir(generador, n: int) -> tuple[float, int]:
+def medir(generador: Callable[[int], list[int]], n: int) -> tuple[float, int]:
     """Mide el tiempo mediano y las comparaciones de insertion_sort.
 
     Args:
