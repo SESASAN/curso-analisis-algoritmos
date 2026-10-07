@@ -12,10 +12,10 @@ Muy buen trabajo: el código es limpio y el informe cubre todas las partes.
 | Corrección conceptual | 19 / 25 |
 | Calidad de la explicación teórica | 23 / 25 |
 | Corrección de la implementación | 19 / 20 |
-| Calidad del análisis de las gráficas | 16 / 20 |
+| Calidad del análisis de las gráficas | 17 / 20 |
 | Documentación y organización del informe | 10 / 10 |
-| **Total** | **87 / 100** |
-| **Nota (0–5)** | **4.35** |
+| **Total** | **88 / 100** |
+| **Nota (0–5)** | **4.40** |
 
 ## 1. Corrección conceptual (19 / 25)
 **Lo que hizo bien:**
@@ -46,14 +46,13 @@ Muy buen trabajo: el código es limpio y el informe cubre todas las partes.
 **Lo que puede mejorar:**
 - Las funciones auxiliares de merge sort tienen docstring de una sola línea; conviene usar el formato completo con Args y Returns.
 
-## 4. Calidad del análisis de las gráficas (16 / 20)
+## 4. Calidad del análisis de las gráficas (17 / 20)
 **Lo que hizo bien:**
 - Las tres gráficas existen, tienen título, ejes rotulados, leyenda y las curvas pedidas en los mismos ejes.
 - Identifica con datos el peor (C), el mejor (B) y el promedio (A), y lo contrasta con su predicción.
 - Describe lo que hace cada curva en la Parte 4 y lo compara con lo calculado. Estima las 16 horas de insertion sort y los pocos segundos de merge sort, y lo declara como estimación.
 
 **Lo que puede mejorar:**
-- Algunas cifras del informe no coinciden con la gráfica publicada de la Parte 4: el texto dice 0.9105 s y 0.0110 s para n = 6400, pero la gráfica muestra cerca de 0.59 s y 0.008 s. Los números del texto deben salir de la misma corrida que la gráfica.
 - Dice que insertion sort no cabría "incluso en el escenario más favorable", pero la cifra usada es la del escenario C, que es el peor. Faltó estimar también el escenario B, que es el actual.
 - En el concepto técnico falta una consideración distinta del tiempo propia de merge sort, como la memoria extra que necesita.
 
@@ -66,7 +65,6 @@ Muy buen trabajo: el código es limpio y el informe cubre todas las partes.
 Sí. Los scripts de las Partes 3 y 4 corren sin errores en unos 10 segundos, ordenan correctamente y generan las gráficas.
 
 ## Para el próximo laboratorio
-- Copie las cifras del informe de la misma corrida que produjo la gráfica publicada.
 - Respalde los ejemplos propios con datos concretos (cantidad, tiempo y límite incumplido).
 - Cuando hable de consumo de energía, haga una estimación sencilla de horas acumuladas.
 - Complete las funciones auxiliares con docstrings de formato completo.
